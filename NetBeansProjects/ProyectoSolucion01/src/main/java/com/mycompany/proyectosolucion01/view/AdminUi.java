@@ -5,11 +5,11 @@
  */
 package com.mycompany.proyectosolucion01.view;
 
-import com.mycompany.proyectosolucion01.data.repository.DirectorioRepository;
-import com.mycompany.proyectosolucion01.data.repository.ProgramaRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoDiscoRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoDocumentoRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoFormatoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.DirectorioRepository;
+import com.mycompany.proyectosolucion01.dao.repository.ProgramaRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoDiscoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoDocumentoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoFormatoRepository;
 
 /**
  *

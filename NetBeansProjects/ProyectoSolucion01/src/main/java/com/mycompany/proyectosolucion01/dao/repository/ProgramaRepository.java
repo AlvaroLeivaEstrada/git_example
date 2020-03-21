@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.proyectosolucion01.data.repository;
+package com.mycompany.proyectosolucion01.dao.repository;
 
-import com.mycompany.proyectosolucion01.data.entity.Asignatura;
-import com.mycompany.proyectosolucion01.data.entity.Disco;
-import com.mycompany.proyectosolucion01.data.entity.Programa;
-import com.mycompany.proyectosolucion01.data.entity.TipoDocumento;
+import com.mycompany.proyectosolucion01.dao.entity.Asignatura;
+import com.mycompany.proyectosolucion01.dao.entity.Disco;
+import com.mycompany.proyectosolucion01.dao.entity.Programa;
+import com.mycompany.proyectosolucion01.dao.entity.TipoDocumento;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;

@@ -5,8 +5,8 @@
  */
 package com.mycompany.proyectosolucion01.view;
 
-import com.mycompany.proyectosolucion01.data.entity.Asignatura;
-import com.mycompany.proyectosolucion01.data.repository.AsignaturaRespository;
+import com.mycompany.proyectosolucion01.dao.entity.Asignatura;
+import com.mycompany.proyectosolucion01.dao.repository.AsignaturaRespository;
 
 /**
  *
