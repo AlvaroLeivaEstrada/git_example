@@ -16,13 +16,7 @@ import java.sql.SQLException;
 public class DataBaseHandler {
     public Connection getConnection() throws SQLException{
 
-        System.out.println("******************************");
-        System.out.println("******************************");
-        System.out.println("******************************");
-        System.out.println("******************************");
-        System.out.println("******************************");
-        System.out.println("******************************");
-        System.out.println("connection data base");
+        System.out.println("esto  se conecta a base de datos");
         Connection conn = null;
         String sURL = "jdbc:mysql://localhost:3306/solucion_ejercicio_1";
         conn = DriverManager.getConnection(sURL, "root", "soymillonario512");
