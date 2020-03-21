@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.proyectosolucion01.data.repository;
+package com.mycompany.proyectosolucion01.dao.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,6 +16,11 @@ import java.sql.SQLException;
 public class DataBaseHandler {
     public Connection getConnection() throws SQLException{
 
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
         System.out.println("******************************");
         System.out.println("connection data base");
         Connection conn = null;

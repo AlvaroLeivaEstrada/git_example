@@ -5,18 +5,18 @@
  */
 package com.mycompany.proyectosolucion01.service;
 
-import com.mycompany.proyectosolucion01.data.entity.Asignatura;
-import com.mycompany.proyectosolucion01.data.entity.Directorio;
-import com.mycompany.proyectosolucion01.data.entity.Disco;
-import com.mycompany.proyectosolucion01.data.entity.Documento;
-import com.mycompany.proyectosolucion01.data.entity.Programa;
-import com.mycompany.proyectosolucion01.data.entity.TipoDisco;
-import com.mycompany.proyectosolucion01.data.entity.TipoDocumento;
-import com.mycompany.proyectosolucion01.data.repository.AsignaturaRespository;
-import com.mycompany.proyectosolucion01.data.repository.DirectorioRepository;
-import com.mycompany.proyectosolucion01.data.repository.DocumentoRepository;
-import com.mycompany.proyectosolucion01.data.repository.ProgramaRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoDocumentoRepository;
+import com.mycompany.proyectosolucion01.dao.entity.Asignatura;
+import com.mycompany.proyectosolucion01.dao.entity.Directorio;
+import com.mycompany.proyectosolucion01.dao.entity.Disco;
+import com.mycompany.proyectosolucion01.dao.entity.Documento;
+import com.mycompany.proyectosolucion01.dao.entity.Programa;
+import com.mycompany.proyectosolucion01.dao.entity.TipoDisco;
+import com.mycompany.proyectosolucion01.dao.entity.TipoDocumento;
+import com.mycompany.proyectosolucion01.dao.repository.AsignaturaRespository;
+import com.mycompany.proyectosolucion01.dao.repository.DirectorioRepository;
+import com.mycompany.proyectosolucion01.dao.repository.DocumentoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.ProgramaRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoDocumentoRepository;
 import java.util.List;
 
 /**

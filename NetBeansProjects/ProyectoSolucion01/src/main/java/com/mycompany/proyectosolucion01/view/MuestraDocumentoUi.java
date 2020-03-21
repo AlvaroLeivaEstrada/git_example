@@ -5,8 +5,8 @@
  */
 package com.mycompany.proyectosolucion01.view;
 
-import com.mycompany.proyectosolucion01.data.entity.Documento;
-import com.mycompany.proyectosolucion01.data.repository.DocumentoRepository;
+import com.mycompany.proyectosolucion01.dao.entity.Documento;
+import com.mycompany.proyectosolucion01.dao.repository.DocumentoRepository;
 import java.util.List;
 
 /**

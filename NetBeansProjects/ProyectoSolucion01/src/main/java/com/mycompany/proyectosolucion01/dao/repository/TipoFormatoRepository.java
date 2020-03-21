@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.proyectosolucion01.data.repository;
+package com.mycompany.proyectosolucion01.dao.repository;
 
-import com.mycompany.proyectosolucion01.data.entity.TipoDisco;
-import com.mycompany.proyectosolucion01.data.entity.TipoFormato;
+import com.mycompany.proyectosolucion01.dao.entity.TipoDisco;
+import com.mycompany.proyectosolucion01.dao.entity.TipoFormato;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;

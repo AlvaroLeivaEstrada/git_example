@@ -5,11 +5,11 @@
  */
 package com.mycompany.proyectosolucion01.view;
 
-import com.mycompany.proyectosolucion01.data.entity.TipoDisco;
-import com.mycompany.proyectosolucion01.data.entity.TipoFormato;
-import com.mycompany.proyectosolucion01.data.repository.DiscoRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoDiscoRepository;
-import com.mycompany.proyectosolucion01.data.repository.TipoFormatoRepository;
+import com.mycompany.proyectosolucion01.dao.entity.TipoDisco;
+import com.mycompany.proyectosolucion01.dao.entity.TipoFormato;
+import com.mycompany.proyectosolucion01.dao.repository.DiscoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoDiscoRepository;
+import com.mycompany.proyectosolucion01.dao.repository.TipoFormatoRepository;
 import java.util.List;
 import javax.swing.JComboBox;
 
