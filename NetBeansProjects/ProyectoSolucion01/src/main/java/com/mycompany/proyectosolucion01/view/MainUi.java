@@ -21,6 +21,7 @@ public class MainUi extends javax.swing.JFrame {
      * Creates new form MainUi
      */
     public MainUi() {
+        System.out.println("inicio interface");
         initComponents();
     }
 
@@ -67,8 +68,9 @@ public class MainUi extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 102, 102));
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(204, 0, 51));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
