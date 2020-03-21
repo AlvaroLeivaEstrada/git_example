@@ -249,38 +249,24 @@ public class DocumentoUi extends javax.swing.JFrame {
                 jComboBox4.getSelectedItem() + "", jTextField1.getText(), jTextField2.getText(),
                 jTextField3.getText(), jTextField4.getText(), jTextField5.getText());
 
-        jTextField1.setText("");
-        jTextField2.setText("");
-        jTextField3.setText("");
-        jTextField4.setText("");
-        jTextField5.setText("");
-
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
-        System.out.println("window is open");
+ 
     }//GEN-LAST:event_formWindowOpened
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
-        System.out.println("windows actived");
+ 
         this.fillCombobox();// TODO add your handling code here:
     }//GEN-LAST:event_formWindowActivated
 
     private void formWindowStateChanged(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowStateChanged
-        System.out.println("window state changed");        // TODO add your handling code here:
+ 
     }//GEN-LAST:event_formWindowStateChanged
 
     private void fillCombobox() {
-
-        System.out.println("clearing jComboBoxes");
-        jComboBox1.removeAllItems();
-        jComboBox2.removeAllItems();
-        jComboBox5.removeAllItems();
-        jComboBox3.removeAllItems();
-        jComboBox4.removeAllItems();
-        System.out.println("jComboBoxes cleared");
 
         discos = dataBaseHandler.findAll();
         directorios = directorioDataBaseHandler.findAll();
